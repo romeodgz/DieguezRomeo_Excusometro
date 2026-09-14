@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: crimson;
+}
+
+header{
+    padding: 40px;
+    text-align: center;
+}
+
+main{
+    padding: 30px;
+}
