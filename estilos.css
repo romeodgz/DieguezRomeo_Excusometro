@@ -1,41 +1,45 @@
-body{
+body {
     margin: 0;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
 h1 {
-    color: crimson;
-    font-size: 3em ;
+    color: rgb(220, 20, 20);
+    font-size: 3em;
 }
 
-p{
+p {
     line-height: 1.5;
 }
- 
-header p{
+
+header p {
     font-size: 1.2em;
 }
 
-header{
+header {
     padding: 40px;
     text-align: center;
-    background-color: #222;
+    background: linear-gradient(to bottom, #222 80%, white 100%);
     color: white;
 }
 
-section{
+section {
     padding: 20px;
-    margin: auto;
-    blackground-color: #f4f4f4;
+    background-color: #adadad;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 60%;
 }
 
-footer{
+footer {
     padding: 20px;
     text-align: center;
-    background-color: #222;
+        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, #222 25%);
     color: white;
 }
-main{
+
+main {
     padding: 30px;
 }
