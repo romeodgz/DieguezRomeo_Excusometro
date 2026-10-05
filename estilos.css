@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     background-color: rgb(255, 255, 255);
@@ -6,23 +8,26 @@ body {
 }
 
 h1 {
-    color: rgb(220, 20, 20);
+    color: rgb(255, 255, 255);
     font-size: 3em;
+    font-family: "Exo 2", sans-serif;
 }
 
 p {
     line-height: 1.5;
+    font-family: "Exo 2", sans-serif;
 }
 
 header p {
     font-size: 1.2em;
+    font-weight: bold;
 }
 
 header {
     padding: 40px;
     text-align: center;
-    background: linear-gradient(to bottom, #222 80%, white 100%);
-    color: white;
+    background: linear-gradient(to bottom, #ff0000 80%, white 100%);
+    color: rgb(255, 255, 255);
 }
 
 section {
@@ -33,11 +38,15 @@ section {
     width: 60%;
 }
 
+.como-funciona {
+    background-color: #ff0000;
+}
+
 footer {
     padding: 20px;
     text-align: center;
         background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, #222 25%);
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 main {
