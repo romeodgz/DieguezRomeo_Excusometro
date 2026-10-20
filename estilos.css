@@ -30,6 +30,23 @@ header {
     color: rgb(255, 255, 255);
 }
 
+nav {
+    background: linear-gradient(to bottom, #ff0000 80%, white 100%);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 section {
     padding: 20px;
     background-color: #adadad;
@@ -38,7 +55,10 @@ section {
     width: 60%;
 }
 
-.como-funciona {
+#detectar-excusa {
+    background-color: #ff0000;
+}
+#contacto {
     background-color: #ff0000;
 }
 
