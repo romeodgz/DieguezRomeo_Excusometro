@@ -1,13 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Expediente clasificado del Excusómetro molón.">
+    <title>Expediente X-404</title>
     <link rel="stylesheet" href="../estilos.css">
-    <title>Expediente</title>
 </head>
-<body>
-    <h1>Expediente</h1>
-    <h2>Detalles del Expediente</h2>
+<body class="expediente">
+    <header class="cabecera-expediente">
+        <span class="sello-clasificado">CLASIFICADO</span>
+        <p>ARCHIVO CONFIDENCIAL · NIVEL DE RIESGO: SOSPECHOSO</p>
+        <h1>EXPEDIENTE X-404</h1>
+        <p>“Yo juraría que lo había subido.”</p>
+    </header>
+    <main>
+        <section class="error">
+            <h2>Descripción del incidente</h2>
+            <img class="foto-caso" src="../img/evidencia-error.svg" alt="Ilustración del error de entrega">
+            <p>
+                El sujeto afirma haber realizado correctamente la entrega,
+                aunque no existe evidencia conocida de dicha acción.
+            </p>
+        </section>
+        <section>
+            <h2>Indicios encontrados</h2>
+            <ul>
+                <li>No existe commit.</li>
+                <li>No existe push.</li>
+                <li>No existe captura.</li>
+                <li>GitHub funciona con absoluta normalidad.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Declaración del sospechoso</h2>
+            <p>“Yo lo vi subir. Salió una cosa verde y todo.”</p>
+        </section>
+        <section class="evidencias">
+            <h2>Evidencias del caso</h2>
+            <p>Material recopilado:</p>
+            <div class="grid-evidencias">
+                <figure class="evidencia">
+                    <img src="../img/evidencia-github.svg" alt="Ilustración del historial de GitHub">
+                    <figcaption>Evidencia 01</figcaption>
+                </figure>
+                <figure class="evidencia">
+                    <img src="../img/evidencia-error.svg" alt="Ilustración del error de entrega">
+                    <figcaption>Evidencia 02</figcaption>
+                </figure>
+                <figure class="evidencia">
+                    <img src="../img/evidencia-error.svg" alt="Segunda ilustración del error de entrega">
+                    <figcaption>Evidencia 03</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <h2>Veredicto provisional</h2>
+            <p>
+                Nivel de credibilidad:
+                <span class="nivel-credibilidad">preocupantemente bajo.</span>
+            </p>
+        </section>
+        <p class="volver">
+            <a href="../index.html#instrucciones">Volver al archivo de excusas</a>
+        </p>
+    </main>
+    <footer>
+        <p>Documento clasificado · Excusómetro molón</p>
+    </footer>
+    <div class="aviso-sistema">
+        Expediente X-404 - Acceso registrado
+    </div>
 </body>
 </html>
