@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sistema experimental para analizar excusas de alumnos.">
-    <meta name="keywords" content="excusas, excusometro, excusómetro, excusómetro molón">
+    <meta name="keywords" content="excusas, excusometro, excusómetro, excusómetro molón, excusometro molon">
     <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="img/robot-solid-full.svg" type="image/x-icon">
     <title>Excusómetro molón</title>
 </head>
-
 <body>
-
     <header>
         <h1>Excusómetro molón</h1>
         <p>Excusas que necesitan supervisión profesional.</p>
     </header>
-
     <nav id="menu">
         <a href="#detectar-excusa">Detectar excusas</a>
         <a href="#instrucciones">Instrucciones</a>
         <a href="#estado">Estado</a>
         <a href="#contacto">Contacto</a>
     </nav>
-
     <main>
-
         <section id="detectar-excusa">
             <h2>Detector de excusas</h2>
             <p>Sistema experimental para analizar excusas académicas.</p>
@@ -37,129 +31,60 @@
                 <li>Excusa 4</li>
             </ul>
         </section>
-
         <section id="instrucciones">
             <h2>Instrucciones</h2>
-            <p>En este apartado encontrarás algunos ejemplos de excusas habituales entre los alumnos.</p>
-            <p>Puedes abrir el expediente de cada caso para consultar más detalles.</p>
-
+            <p>Introduce la excusa del alumno en el campo de texto y pulsa el botón "Analizar excusa".</p>
+            <p>El sistema analizará la excusa y te dará un resultado.</p>
             <article class="excusa">
                 <h3>Yo juraría que lo había subido</h3>
                 <p>Excusa habitual cuando el archivo no aparece.</p>
                 <a href="paginas/expediente.html">Abrir expediente X-404</a>
             </article>
-
             <article class="excusa">
                 <h3>En mi ordenador sí funcionaba</h3>
                 <p>Una de las grandes aportaciones de la informática.</p>
-                <a href="paginas/expediente.html">Abrir expediente</a>
             </article>
-
             <article class="excusa">
                 <h3>GitHub estaba raro</h3>
                 <p>Diagnóstico técnico ampliamente utilizado.</p>
             </article>
-
             <ol>
                 <li>Lee los ejemplos de excusas.</li>
                 <li>Abre el expediente del caso que quieras consultar.</li>
                 <li>Revisa los indicios y el veredicto provisional.</li>
             </ol>
         </section>
-
-        <section id="registro">
-            <h2>Registro de excusas</h2>
-            <p>En este apartado se registran las excusas detectadas por el sistema.</p>
-            <form action="">
-                <div class="campo">
-                    <label for="Nombre">Nombre:</label>
-                    <input id="Nombre" type="text" required minlength="2" maxlength="50">
-                </div>
-                <div class="campo">
-                    <label for="email">Email:</label>
-                    <input type="email" required id="email">
-                </div>
-                <div class="campo">
-                    <label for="fecha">Fecha</label>
-                    <input type="date" required id="fecha" required>
-                </div>
-                <div class="campo">
-                    <label for="drama">Nivel de dramatismo:</label>
-                    <select name="drama" id="drama" required>
-                        <option value="">Selecciona un nivel</option>
-                        <option value="bajo">Bajo</option>
-                        <option value="medio">Medio</option>
-                        <option value="alto">Alto</option>
-                    </select>
-                </div>
-                <fieldset class="campo">
-                    <legend>Categoria Principal</legend>
-                    <label>
-                        <input type="radio" name="categoria" value="tecnica" required>
-                        Problema técnico
-                    </label>
-                    <label>
-                        <input type="radio" name="categoria" value="organizativa" required>
-                        Problema organizativo
-                    </label>
-                    <label>
-                        <input type="radio" name="categoria" value="personal" required>
-                        Problema personal
-                    </label>
-                </fieldset>
-                <div class="campo campo-check">
-                    <label for="">
-                        <input type="checkbox" name="declaracion" required> Confirmo que la información proporcionada es verídica y completa.
-                    </label>
-                </div>
-                <div class="campo">
-                    <label for="excusa">Excusa:</label>
-                    <textarea id="excusa" rows="6" minlength="20" maxlength="500" required></textarea>
-                </div>
-                <button type="submit">Enviar excusa</button>
-            </form>
-        </section>
-
         <section id="estado">
             <h2>Estado del sistema</h2>
-
             <div class="panel-estado">
                 <div class="dato-estado">
                     <span class="etiqueta">Sistema</span>
-                    <span class="valor">En mantenimiento</span>
+                    <span class="valor">En pruebas</span>
                 </div>
-
                 <div class="dato-estado">
                     <span class="etiqueta">Expedientes abiertos</span>
                     <span class="valor">1</span>
                 </div>
-
                 <div class="dato-estado">
                     <span class="etiqueta">Última actualización</span>
                     <span class="valor">11/11/2026</span>
                 </div>
             </div>
         </section>
-
         <section id="contacto">
             <h2>Contacto</h2>
             <p>Si tienes alguna duda o sugerencia, no dudes en contactarnos a través del correo electrónico:
                 <a href="mailto:info@excusometro.com">info@excusometro.com</a>
             </p>
         </section>
-
     </main>
-
     <footer>
         <p>© 2026 Excusómetro. Todos los derechos reservados.</p>
         <a href="https://github.com/romeodgz/DieguezRomeo_Excusometro/tree/desarrollo" target="_blank">Código fuente de
             GitHub</a>
     </footer>
-
     <div class="aviso-sistema">
         Sistema en pruebas - Vigilancia activada
     </div>
-
 </body>
-
 </html>
